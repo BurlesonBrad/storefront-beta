@@ -323,3 +323,30 @@ if ( ! function_exists( 'wcbt_woocoommerce_not_installed' ) ) { // this would be
 	}
 
 }
+/** Questions
+ * As a self-assigned project manager... 
+ * (a.k.a. An idiot who attempts to Always Be Learning and doesn't give a rats ass about publicly displaying his ignorance but cares more about seeing something get D-O-N-E) 
+ * ...here's a few questions:
+ * 
+ * This will check Woo's Storefront Git Repo every six hours.   But what if I want a notification EVERY time & ALL the time that Mike, James, or someone else pushes a modification?
+ * It doesn't do anyone any good at all to (cough: "ATTEMPT") try to make a storefront change, modification, child theme, if they aren't notified of file changes and modifications
+ * things like this: http://prntscr.com/aacxbp ~or~ http://i.imgur.com/OvElVah.png
+ * 
+ * Me, Anyone & Everyone would want a notification EVERYTIME this ---> http://i.imgur.com/UUsmQS2.png <-- happens!
+ * So, how do we modify this so that it will push an update each time Storefront is changed/modified/twerked/tweaked ?
+ * 
+ * All these other options like wppusher, git updater, and things like that are all Peachy Friggin' Cool.  But those only LIMIT
+ * an update to people when they are the author or account owner or contributor to the git repo.
+ * WHAT ABOUT EVERYONE ELSE? sheesh folks.... why's a simpleton like me trying to figure this out?
+ * There got to be a gazillion public themes hosted here on git. Am I missing another solution that's already out there?
+ * Why's it not possible to get REAL TIME syncs from a public theme on git to a person's WP installation? 
+ * It shouldn't matter if I'm the owner. It shouldn't matter if I'm on local, a staging url, or a hidden sub.domain url....
+ * Just keep whatever is on git synced up and current with wherever / whatever install I've got this plugin running :-)
+ * .....it always seems simplistic right?
+ * 
+ * After this hooplah of a mess is correctly coded, 
+ * Apparently I need to do a pull request and ask someone to include the 'Storefront_Beta_Tester' for the class name
+ * and merge that pull with the official Storefront repo on git.
+ * 
+ * Jesus Take the Wheel.  Dear God Almighty, Brad's gonna try something new! Jesus Take The Wheel!
+**/ 
