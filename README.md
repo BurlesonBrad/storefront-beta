@@ -25,4 +25,4 @@ My only hope and goal is that you'll add a fork, add the *_why_*, and help get t
 
 # Thanks! 
 
-
+after all this is up and running, [James](https://github.com/jameskoster) said to do a pull request that used ```Storefront_Beta_Tester``` as the name and [they'd consider merging it into Storefront's Master](https://github.com/woothemes/storefront/issues/338#issuecomment-191149389)
