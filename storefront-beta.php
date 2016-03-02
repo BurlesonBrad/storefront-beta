@@ -11,6 +11,8 @@
  *
  * Based on WP_GitHub_Updater by Joachim Kudish.
  * Based on Mike's WooCommerce Updater Plugin here: https://github.com/woothemes/woocommerce-beta-tester
+ * 
+ * Scroll to END & read Notes & Questions Section
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
