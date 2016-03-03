@@ -1,0 +1,24 @@
+according to this:
+https://github.com/afragen/github-updater#themes
+it says that a theme needs to have the "Github Theme URI" declaration in the style.css file.
+Well, this kinda sucks (I think) 
+Since the Storefront master repo doesn't actually have a style.css file, how the heck would it be added?
+If it was added, I think it would look like this:
+
+/*!
+Theme Name:   	Storefront
+Theme URI:    	http://www.woothemes.com/storefront
+Author:       	WooThemes
+Author URI:		http://www.woothemes.com
+Description:  	Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooThemes, it features a deep integration with our market leading WooCommerce plugin, several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love it's lean and extensible codebase making it a joy to customise and extend. Looking for a WooCommerce theme? Look no further!
+Version:      	2.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+GitHub Theme URI: https://github.com/woothemes/storefront
+GitHub Branch:    master
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support
+
+So, will @afragen's github updater still work if the two lines are added to the styles.scss?
+As I understand that scss will generate the css needed for the theme,
+what I'm wondering is if the updater php file that I'm (slowly) building upon is still going to work right :)
